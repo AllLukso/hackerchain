@@ -1,4 +1,6 @@
 # HackerChain - Hacker Authentication Service built for the Universal Profile 
+![alt text](https://github.com/newman0x/hackerchain/blob/master/assets/HackerChain.png?raw=true)
+
 
 ## Focus:
 HackerChain is a service that allows developers to authenticate themselves on a variety of web2 platforms, which can be used to showcase on a special keychain within their Lukso Universal Profile.
@@ -11,12 +13,17 @@ HackerChain attempts to solve this by being a quick way for someone, such as a p
 ## Demo Video:
 https://youtu.be/ga1licyW4yo
 
-## To Run:
+## To Build and Run:
 
-```bash
+```
+git clone https://github.com/newman0x/hackerchain.git
+
+cd hackerchain
+
+npm install
+
 npm run dev
-# or
-yarn dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
