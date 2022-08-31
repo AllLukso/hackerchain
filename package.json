@@ -1,0 +1,27 @@
+{
+  "name": "hackerchain",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@erc725/erc725.js": "^0.14.4",
+    "@lukso/lsp-factory.js": "^2.3.3",
+    "@lukso/lsp-smart-contracts": "^0.6.2",
+    "axios": "^0.27.2",
+    "next": "12.2.5",
+    "next-auth": "^4.10.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "web3": "^1.7.5"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
